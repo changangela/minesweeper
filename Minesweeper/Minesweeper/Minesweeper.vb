@@ -191,7 +191,7 @@
     Private Sub buttonMouseUp(ByVal sender As System.Object, ByVal e As System.Windows.Forms.MouseEventArgs) ' Handles Me.MouseClick
         If failFlag Or winFlag Then
             If failFlag Then
-                MsgBox("You failed!")
+                MsgBox("You lost!")
             ElseIf winFlag Then
                 MsgBox("You won!")
             End If
